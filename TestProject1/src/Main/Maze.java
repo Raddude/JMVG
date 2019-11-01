@@ -6,21 +6,41 @@ package Main;
 public class Maze {
 	
 	private static int[][] maze = 
-		{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
-		 {1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1}};
+		{
+				{1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1},
+				{1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1},
+				{1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1},
+				{1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
+				{1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1},
+				{1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1},
+				{1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1},
+				{1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
+				{1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1},
+				{1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1},
+				{1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1}
+		};
 	
 	
 	
-	public static String returnMaze()
+	//Returns the maze variable as a 2-D integer array formatted like the variable above.
+	public static int[][] returnMaze()
 	{
-		return maze[0][0] + ", " + maze[0][1] + "\n" + maze[1][0] + ", " + maze[1][1];
+		return maze;
 	}
 	
 	
 	
+	//Returns the maze as a string where all of the 1's are replaced with * and all of the 0's are replaced with spaces.
 	public String toString()
 	{
-		return "";
+		String outString = Integer.toString(maze[0].length);
+		
+		for (int row = 0; row < maze.length; row++)
+		{
+			
+		}
+		
+		return outString;
 	}
 
 }
