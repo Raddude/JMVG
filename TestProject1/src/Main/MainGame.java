@@ -13,6 +13,8 @@ public class MainGame {
 		
 		//Testing for Jake
 		System.out.println(maze.toString());
+		
+		//BLAH
 	}
 
 }
