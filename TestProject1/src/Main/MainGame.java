@@ -5,6 +5,9 @@ package Main;
 
 public class MainGame {
 	
-	//test
+	public static void main(String[] args)
+	{
+		System.out.println(Maze.returnMaze());
+	}
 
 }
