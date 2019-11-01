@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class UserIO {
 
 	Scanner in = new Scanner(System.in);
-	
+	/*
 	public static  (char leftMov, char rightMov, char frontMov, char backMov) {
 	
 		
@@ -18,6 +18,7 @@ public class UserIO {
 		
 	}
 	
+	
 	return char
-
+	*/
 }

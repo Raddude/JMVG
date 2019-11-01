@@ -7,7 +7,12 @@ public class MainGame {
 	
 	public static void main(String[] args)
 	{
-		System.out.println(Maze.returnMaze());
+		//Creating an instance of each method
+		Maze maze = new Maze();
+		UserIO userIO = new UserIO();
+		
+		//Testing for Jake
+		System.out.println(maze.toString());
 	}
 
 }
